@@ -1,0 +1,6 @@
+use_frameworks!
+target 'SwiftyAnimTool_Tests' do
+  pod 'SwiftyAnimTool', :path => '../'
+  
+  
+end
