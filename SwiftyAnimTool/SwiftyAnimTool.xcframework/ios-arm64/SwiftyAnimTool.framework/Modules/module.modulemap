@@ -1,0 +1,11 @@
+framework module SwiftyAnimTool {
+  umbrella header "SwiftyAnimTool.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftyAnimTool.Swift {
+  header "SwiftyAnimTool-Swift.h"
+  requires objc
+}

@@ -1,0 +1,545 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SwiftyAnimTool",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AnimToolError",
+        "printedName": "AnimToolError",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "failed",
+            "printedName": "failed",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyAnimTool.AnimToolError.Type) -> SwiftyAnimTool.AnimToolError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimToolError",
+                    "printedName": "SwiftyAnimTool.AnimToolError",
+                    "usr": "s:14SwiftyAnimTool0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyAnimTool.AnimToolError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimToolError",
+                        "printedName": "SwiftyAnimTool.AnimToolError",
+                        "usr": "s:14SwiftyAnimTool0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SwiftyAnimTool0bC5ErrorO6failedyA2CmF",
+            "mangledName": "$s14SwiftyAnimTool0bC5ErrorO6failedyA2CmF",
+            "moduleName": "SwiftyAnimTool"
+          },
+          {
+            "kind": "Var",
+            "name": "invalidArgs",
+            "printedName": "invalidArgs",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyAnimTool.AnimToolError.Type) -> SwiftyAnimTool.AnimToolError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnimToolError",
+                    "printedName": "SwiftyAnimTool.AnimToolError",
+                    "usr": "s:14SwiftyAnimTool0bC5ErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyAnimTool.AnimToolError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnimToolError",
+                        "printedName": "SwiftyAnimTool.AnimToolError",
+                        "usr": "s:14SwiftyAnimTool0bC5ErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SwiftyAnimTool0bC5ErrorO11invalidArgsyA2CmF",
+            "mangledName": "$s14SwiftyAnimTool0bC5ErrorO11invalidArgsyA2CmF",
+            "moduleName": "SwiftyAnimTool"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimToolError",
+                "printedName": "SwiftyAnimTool.AnimToolError",
+                "usr": "s:14SwiftyAnimTool0bC5ErrorO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AnimToolError",
+                "printedName": "SwiftyAnimTool.AnimToolError",
+                "usr": "s:14SwiftyAnimTool0bC5ErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SwiftyAnimTool0bC5ErrorO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s14SwiftyAnimTool0bC5ErrorO2eeoiySbAC_ACtFZ",
+            "moduleName": "SwiftyAnimTool",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14SwiftyAnimTool0bC5ErrorO9hashValueSivp",
+            "mangledName": "$s14SwiftyAnimTool0bC5ErrorO9hashValueSivp",
+            "moduleName": "SwiftyAnimTool",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14SwiftyAnimTool0bC5ErrorO9hashValueSivg",
+                "mangledName": "$s14SwiftyAnimTool0bC5ErrorO9hashValueSivg",
+                "moduleName": "SwiftyAnimTool",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SwiftyAnimTool0bC5ErrorO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s14SwiftyAnimTool0bC5ErrorO4hash4intoys6HasherVz_tF",
+            "moduleName": "SwiftyAnimTool",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14SwiftyAnimTool0bC5ErrorO",
+        "mangledName": "$s14SwiftyAnimTool0bC5ErrorO",
+        "moduleName": "SwiftyAnimTool",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Error",
+            "printedName": "Error",
+            "usr": "s:s5ErrorP",
+            "mangledName": "$ss5ErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "DropFrames",
+        "printedName": "DropFrames(input:output:targetFrameRate:targetTotalDuration:loopCount:srcRect:dstSize:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CGRect",
+            "printedName": "CoreFoundation.CGRect",
+            "usr": "c:@S@CGRect"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CGSize",
+            "printedName": "CoreFoundation.CGSize",
+            "usr": "c:@S@CGSize"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:14SwiftyAnimTool10DropFrames5input6output15targetFrameRate0H13TotalDuration9loopCount7srcRect7dstSizeySS_SSS3iSo6CGRectVSo6CGSizeVtKF",
+        "mangledName": "$s14SwiftyAnimTool10DropFrames5input6output15targetFrameRate0H13TotalDuration9loopCount7srcRect7dstSizeySS_SSS3iSo6CGRectVSo6CGSizeVtKF",
+        "moduleName": "SwiftyAnimTool",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Background",
+        "printedName": "Background",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "file",
+            "printedName": "file",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyAnimTool.Background.Type) -> (Swift.String) -> SwiftyAnimTool.Background",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SwiftyAnimTool.Background",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Background",
+                        "printedName": "SwiftyAnimTool.Background",
+                        "usr": "s:14SwiftyAnimTool10BackgroundO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyAnimTool.Background.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Background",
+                        "printedName": "SwiftyAnimTool.Background",
+                        "usr": "s:14SwiftyAnimTool10BackgroundO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SwiftyAnimTool10BackgroundO4fileyACSScACmF",
+            "mangledName": "$s14SwiftyAnimTool10BackgroundO4fileyACSScACmF",
+            "moduleName": "SwiftyAnimTool"
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyAnimTool.Background.Type) -> (Swift.String) -> SwiftyAnimTool.Background",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> SwiftyAnimTool.Background",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Background",
+                        "printedName": "SwiftyAnimTool.Background",
+                        "usr": "s:14SwiftyAnimTool10BackgroundO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyAnimTool.Background.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Background",
+                        "printedName": "SwiftyAnimTool.Background",
+                        "usr": "s:14SwiftyAnimTool10BackgroundO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SwiftyAnimTool10BackgroundO5coloryACSScACmF",
+            "mangledName": "$s14SwiftyAnimTool10BackgroundO5coloryACSScACmF",
+            "moduleName": "SwiftyAnimTool"
+          },
+          {
+            "kind": "Var",
+            "name": "frame",
+            "printedName": "frame",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(SwiftyAnimTool.Background.Type) -> (Swift.Int) -> SwiftyAnimTool.Background",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Int) -> SwiftyAnimTool.Background",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Background",
+                        "printedName": "SwiftyAnimTool.Background",
+                        "usr": "s:14SwiftyAnimTool10BackgroundO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "SwiftyAnimTool.Background.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Background",
+                        "printedName": "SwiftyAnimTool.Background",
+                        "usr": "s:14SwiftyAnimTool10BackgroundO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14SwiftyAnimTool10BackgroundO5frameyACSicACmF",
+            "mangledName": "$s14SwiftyAnimTool10BackgroundO5frameyACSicACmF",
+            "moduleName": "SwiftyAnimTool"
+          },
+          {
+            "kind": "Function",
+            "name": "toStr",
+            "printedName": "toStr()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14SwiftyAnimTool10BackgroundO5toStrSSyF",
+            "mangledName": "$s14SwiftyAnimTool10BackgroundO5toStrSSyF",
+            "moduleName": "SwiftyAnimTool",
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14SwiftyAnimTool10BackgroundO",
+        "mangledName": "$s14SwiftyAnimTool10BackgroundO",
+        "moduleName": "SwiftyAnimTool",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "Animate",
+        "printedName": "Animate(inputs:background:backgroundBlurRadius:canvasSize:duration:output:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Void",
+            "printedName": "()"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Array",
+            "printedName": "[Swift.String]",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "usr": "s:Sa"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Background",
+            "printedName": "SwiftyAnimTool.Background",
+            "usr": "s:14SwiftyAnimTool10BackgroundO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "CGSize",
+            "printedName": "CoreFoundation.CGSize",
+            "usr": "c:@S@CGSize"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:14SwiftyAnimTool7Animate6inputs10background0F10BlurRadius10canvasSize8duration6outputySaySSG_AA10BackgroundOSiSo6CGSizeVSiSStKF",
+        "mangledName": "$s14SwiftyAnimTool7Animate6inputs10background0F10BlurRadius10canvasSize8duration6outputySaySSG_AA10BackgroundOSiSo6CGSizeVSiSStKF",
+        "moduleName": "SwiftyAnimTool",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,27 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name SwiftyAnimTool
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import Swift
+@_exported import SwiftyAnimTool
+import _Concurrency
+import _StringProcessing
+public enum AnimToolError : Swift.Error {
+  case failed
+  case invalidArgs
+  public static func == (a: SwiftyAnimTool.AnimToolError, b: SwiftyAnimTool.AnimToolError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public func DropFrames(input: Swift.String, output: Swift.String, targetFrameRate: Swift.Int, targetTotalDuration: Swift.Int, loopCount: Swift.Int, srcRect: CoreFoundation.CGRect, dstSize: CoreFoundation.CGSize) throws
+public enum Background {
+  case file(Swift.String)
+  case color(Swift.String)
+  case frame(Swift.Int)
+}
+public func Animate(inputs: [Swift.String], background: SwiftyAnimTool.Background, backgroundBlurRadius: Swift.Int, canvasSize: CoreFoundation.CGSize, duration: Swift.Int, output: Swift.String) throws
+extension SwiftyAnimTool.AnimToolError : Swift.Equatable {}
+extension SwiftyAnimTool.AnimToolError : Swift.Hashable {}
