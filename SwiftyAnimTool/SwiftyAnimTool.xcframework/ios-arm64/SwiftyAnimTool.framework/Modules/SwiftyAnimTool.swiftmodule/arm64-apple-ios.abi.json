@@ -537,6 +537,40 @@
         ],
         "throwing": true,
         "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "Opacity",
+        "printedName": "Opacity(input:sampleDivider:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "String",
+            "printedName": "Swift.String",
+            "usr": "s:SS"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Int",
+            "printedName": "Swift.Int",
+            "usr": "s:Si"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:14SwiftyAnimTool7Opacity5input13sampleDividerSfSS_SitKF",
+        "mangledName": "$s14SwiftyAnimTool7Opacity5input13sampleDividerSfSS_SitKF",
+        "moduleName": "SwiftyAnimTool",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "throwing": true,
+        "funcSelfKind": "NonMutating"
       }
     ],
     "json_format_version": 8
